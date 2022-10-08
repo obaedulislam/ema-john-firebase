@@ -1,0 +1,32 @@
+.cart{
+    position: sticky;
+    top: 0;
+}
+.margin-price{
+    margin-right: 100px;
+}
+.total, .selected-items, .total-price, .total-shipping, .tax {
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    color: #8e5807;
+}
+.clear-cart{
+    margin-top: 20px;
+}
+.clear-cart button{
+    width: 100%;
+    padding: 7px 0;
+    background-color: #8e5807;
+    color: #fff;
+    cursor: pointer;
+}
+.review button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 7px 0;
+    background-color: #FF9900;
+    color: #fff;
+    cursor: pointer;
+}
