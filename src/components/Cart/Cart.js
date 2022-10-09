@@ -5,7 +5,7 @@ import { deleteShoppingCart } from '../../utilities/fakedb';
 import './Cart.css'
 
 const Cart = (props) => {
-    const {cart} = props;
+    const {cart, clearCart, children} = props;
     //Total Price & Shipping Price
     let total = 0;
     let shipping = 0;
@@ -47,11 +47,12 @@ const Cart = (props) => {
             </div>
 
             <div className="clear-cart">
-                <button onClick={deleteShoppingCart}>
+                <button onClick={clearCart}>
                     <span className='btn-text'>Clear Cart</span>
                     <span><FontAwesomeIcon icon = {faTrash}/></span>
                 </button>
             </div>
+            {children}
 
         </div>
     );

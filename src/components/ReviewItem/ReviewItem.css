@@ -19,9 +19,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.product-info h2{
-    font-size: 26px;
-}
+
 .product-info p{
     margin: 0;
 }

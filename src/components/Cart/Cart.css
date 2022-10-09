@@ -21,6 +21,11 @@
     background-color: #8e5807;
     color: #fff;
     cursor: pointer;
+    transition: .3s;
+}
+.clear-cart button:hover{
+    background-color: bisque;
+    color: #000;
 }
 .review button{
     margin-top: 20px;
