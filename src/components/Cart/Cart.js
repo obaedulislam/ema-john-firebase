@@ -6,7 +6,6 @@ import './Cart.css'
 
 const Cart = (props) => {
     const {cart} = props;
-    console.log(cart);
     //Total Price & Shipping Price
     let total = 0;
     let shipping = 0;
@@ -48,20 +47,13 @@ const Cart = (props) => {
             </div>
 
             <div className="clear-cart">
-                {/* Clear all data in cart section */}
                 <button onClick={deleteShoppingCart}>
                     <span className='btn-text'>Clear Cart</span>
                     <span><FontAwesomeIcon icon = {faTrash}/></span>
                 </button>
             </div>
-            {/* <div className="review">
-                <button> 
-                    <span className='btn-text'>Review Order</span>
-                    <span><FontAwesomeIcon icon = {faArrowRight}/></span>
-                </button>
-            </div> */}
+
         </div>
     );
 };
-
 export default Cart;
