@@ -13,5 +13,6 @@
 2. Create AuthContext
 3. set AuthContext.Provider
 4. Make Sure You set Children
+5. export AuthContext to be inside useContext
 
 */

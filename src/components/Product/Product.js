@@ -14,7 +14,7 @@ const Product = ({handleAddToCart, product} ) => {
             </div>
             <div className="product-content">
                 <h2>{name.length > 20 ? name.slice(0, 20)+'...': name }</h2>
-                <h3>Price: {price}</h3>
+                <h3>Price: ${price}</h3>
                 <h4>Manufacturer: {seller}</h4>
                 <h5>Rating: {ratings} Star</h5>
             </div>
