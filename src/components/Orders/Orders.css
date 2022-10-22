@@ -4,3 +4,11 @@
     grid-template-columns: 2fr 1fr !important;
     gap: 100px !important;
 }
+.btn-text{
+    margin-top: 20px;
+    width: 100%;
+    padding: 7px 0;
+    background-color: #FF9900;
+    color: #fff;
+    cursor: pointer;
+}

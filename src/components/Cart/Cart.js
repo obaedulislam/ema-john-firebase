@@ -47,10 +47,10 @@ const Cart = (props) => {
             </div>
 
             <div className="clear-cart">
-                <button onClick={clearCart}>
+                {/* <button onClick={clearCart}>
                     <span className='btn-text'>Clear Cart</span>
                     <span><FontAwesomeIcon icon = {faTrash}/></span>
-                </button>
+                </button> */}
             </div>
             {children}
 
